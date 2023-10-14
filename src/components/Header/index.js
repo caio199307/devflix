@@ -14,6 +14,9 @@ function Header() {
                 <Link to="/watch">
                     Assistir
                 </Link>
+                <Link to="/search">
+                    Buscar
+                </Link>
             </nav>
         </header>
     )
