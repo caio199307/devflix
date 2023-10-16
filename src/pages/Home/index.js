@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Banner from "../../components/Banner";
 import Card from "../../components/Card";
 import Category, { categories, filterCategory } from "../../components/Category";
@@ -6,12 +5,12 @@ import Container from "../../components/Container";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Carousel from "../../components/Carousel";
+import ScrollToTopButton from "../../components/ScrollToTopButton";
 
 function Home() {
-  const [nome, setNome] = useState()
-
   return (
     <>
+      <ScrollToTopButton/>
       <Header></Header>
       <Banner image="home"></Banner>
       <Container>
